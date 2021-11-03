@@ -1,0 +1,455 @@
+OCTOBER-26,WEDNESDAY
+
+CLOUD:
+* The term cloud is refer to a Network internet
+* cloud is present in a remote location
+* It can provide services over public and private network.
+* WAN,LAN,VPN
+
+
+CLOUD COMPUTING:
+
+* it will refers to manipulating,configuring and accessing the  hardware and software resources remotely
+* Cloud will offer online data storage, infrastructure and applications.
+* servers, databases, computing resources, storage, software
+* cloud computing is platform independent (means it will run on all the platform)
+* it is the use of remote servers on a internet to store, to manage and to process data rather than a local server or a personal computer.
+
+before cloud computing:
+* to host a website these are the following things that you would need to do
+  (i)   buy a stack of servers
+  (ii)  monitoring and maintain the servers(team)
+  (iii) high traffic>>more servers
+
+disadvantages :
+* if you consider cost then this setup is expensive
+* troubleshooting problems can be be tedious and may conflict with your business goals
+* Since the traffic is varying , your servers will be idle most of the time.
+
+why cloud?
+* in one day we are generating many terabytes of data
+* in our local system we have limited storage
+* running out of harddrive space
+* easily can move files
+
+what is cloud?
+* just moving you data to cloud
+* cloud has a unlimited space.
+
+operations using cloud computing:
+* using cloud computing develop applications and services
+* to store , backup and we can recover the data
+* to hosting a website
+* delivery of software on demand
+* data analaysis 
+* streaming videos and audios eg:youtube,netflix,amazonprime,gaana,instagram,FB
+
+characteristics of cloud computing:
+* agility(uploading and downloading speed)
+* multisharing(for eg: one aws account it can be used by multiple users which is called multisharing)
+* high availability and reliability
+* device and location independent 
+* maintenance is not required
+* low cost
+* services is meter technology(how much we are using that much only we need to pay)
+
+advantages of cloud computing:
+* backup and restore the data
+* improved collaboration
+* excellent accessbility
+* mobility
+* unlimited storage capacity
+* data security
+* pay as you use system
+
+disadvantages of cloud computing:
+* limited control (everything is handled by cloud server provider)
+* vendor lockin ( all data stored in vendor )
+
+history of cloud computing:
+* 1999>salesforce.com started cloud services
+* 2002>amazon - it become commercial in 2006
+* 2009>google i.e GCP(google cloud platform)
+* 2009>microsoft launched Azure
+
+what is cloud computing?
+* storing data/applications on remote servers
+* processing data/ applications from servers
+* accessing data/ applications via internet
+* access data anywhere 
+
+how cloud computing happens?
+* put your data on cloud servers and voila no more buying expensive servers
+* scalability (serves capacity will vary according to traffic, how cool is that)
+* cloud provider will manage your servers , hence no worries about the underlying infrastructure
+
+working cloud models:
+* deployment model
+* service model
+
+deployment model:
+*  define the type of access to the cloud i.e (how the cloud is located)
+* three types
+  (i)    public cloud
+  (ii)   private cloud
+  (iii)  hybrid cloud
+
+service model:
+* manages which type of services  according to client requirement
+* three types
+  (i)    Iaas
+  (ii)   Paas
+  (iii)  Saas
+
+public cloud:
+* a service provider makes resources such as applications and storage, available to the general public over the internet.
+* easy and inexpensive set-up because hardware, application and bandwidth costs are covered by the provider.
+* no wasted resources because you pay for what you use.
+* The public cloud allows system and services to be easily accessible to the General public 
+* less secure because of its openess
+* eg:gmail,googledrive,youtube,netflix,aws,azure,gcp
+
+private cloud:
+* offers hosted services to a limited number of people behind firewall, so it minimizes the security concerns.
+* private cloud gives companies direct control over their data.
+* The private cloud allows system and services to be accessible within an organization
+* its more secured because of its private nature
+* eg: IBM cloud, Oracle cloud,ola,uber, aws,azure,gcp
+
+hybrid cloud:
+* a cloud computing environment which uses a mix of on-premises,private cloud and thir-party,public cloud services.
+* it helps you leverage the best of both worlds
+* hybrid clous is a combination of both public and private cloud 
+* The critical activities are performed using private cloud
+* the non critical activities are performed using public cloud
+* eg: iclouds
+
+Iaas(Infrastructure as a service)
+* It provide virtualizeed computing resources over the internet.
+* no worries about the underlying physical machine
+* abstract the user from the physical machine
+* It is also responsible for managing application data
+* eg: EC2( Elastic compute cloud), VM(virtual machine), Database,storages,VPC(virtual private cloud)
+
+Paas(Platform as a service)
+* no control over the underlying architecture including OS, storage,servers etc.
+* the cloud provider gives the ability to the customer to deploy customer created apps using programming languages,tools,etc that are provided by the cloud provider.
+* It provide platform for software creation
+* It provide runtime environment for application,development and development tools
+* eg: deveOps(development of operations), github, colab(used to write a python code and it is owned by google),jnkin,kubernetes,docket
+
+Saas(Software as a service)
+*cloud provider leases applications or software which are owned by them to its client.
+* It is called as cloud application service
+* web browser is required
+* softwares are owned by vendor(service provider)
+* eg:gmail,outlook,GDrive,CRM,ERP,Zoom,Teams,Youtube,Chrome
+* eg:salesforce.com provide the CRM(Customer relation manager) on a cloud infrastructure to its client and charges them for it,but the software is owned by the salesforce company only.
+
+iaas:
+data-applications-runtime-middleware-o/s-|virtualization-servers-storage-networking
+       you manage                                   managed by vendor
+
+paas:
+data-applications-|runtime-middleware-o/s-virtualization-servers-storage-networking
+     you manage                         managed by vendor
+
+saas:
+data-|applications-runtime-middleware-o/s-virtualization-servers-storage-networking
+you                        managed by vendor
+manage
+
+an organization with cloud computing:
+on premises-user -> service provider-cloud applications(saas)(computer/storage/network)
+|private cloud
+
+Evaluating Saas: users
+benefits                                                 risks
+* fasterdevelopment                                      * requires trusting s saas provider
+  because no local installation is required                for availability and security
+* usage-based pricing                                    * can raise legal/regulatory concerns
+  letting you pay only for what you use                    with storing data outside customer premises
+* less financial risk                                    * can limit customization
+  with lower up-front cost and free trials                 if customers share a multi-tenant application
+* Reduced need for on-premises resources                 * can be harder to integrate
+  such as servers and IT staff                             with on-premises applications 
+* Easier upgrades                                        * can have harder to integrate
+  with no on-premises software to update                   than on-premises applications
+
+
+Evaluating Saas: software vendors  eg:google,aws,azure
+benefits                                                 risks
+* can provide more predictable revenue stream            * must demonstrate real value up front
+  than traditional licensing                               due to try-before-you-buy options
+* can sell directly to business decision makers          * revenue comes in more slowly
+  without going through IT                                 because of typical saas pricing models
+* can lower support costs                                * may lessen ability to sell customization
+  due to shared multi-tenant application                   services due to multi-tenants applications
+* provides more knowledge                                * can bring new sales challenges
+  about how customers use the applications                 e.g: customers resistance to the cloud
+* offers potential to reach new customers                * requires significant business changes
+  in broader markets                                       e.g: pricing and sales.
+
+The impact of Saas:
+for users                                                for software vendors
+* life is better                                         * life is different
+* as long as the risks aren't  showstoppers              * everything changes:pricing,sales,process,operations
+
+what cloud platforms offer over Traditional hosting
+* immediate access to more services
+* usage-based pricing
+* global scale
+
+cloud platform technologies: data
+* database in a VM
+    virtual machine (sql,server,mysql)
+* unstructured data
+    object storage(1000011010011110111110110)
+* managed databases
+    relational storage
+    NoSQL storage
+
+Amazon web services: Technologies
+                       Compute                                                         	Data
+	Iaas	Paas	Caas	Faas	Object storage	Relational	NoSQL
+Amazon web services	Elastic compute cloud(EC2)	Elastic beanstalk	Elastic kuberneteservice(EKS)	lambda	Simple storage service(53)	Relational Database Service	Dynamo DB
+Microsoft Azure	Virtual machine	App services	Azure   kuberneteservice(AKS)	Functions	Blobs 	SQL Databasae	Cosmos DB
+Google cloud platform	Compute Engine	APP  Engine	Kubernetes Engine	Cloud Functions	Cloud Storage	Cloud SQL	Cloud Bigtable
+                                                                                  
+
+Amazon web services: Things to know
+* the first mover: AWS first appeared in 2006
+* viewed as a Leader: AWS has the largest market share today
+* offers diverse services: including both open and proprietery options
+
+Microsoft Azure : Things to know
+* A technology company: Amazon is in many different businesses
+* Strong Relationships: Microsoft is a core enterprise vendor
+* Offers diverse service: Including both open source and proprietary options
+
+Google cloud platform: Things to know
+* Later to market: Amazon and microsoft were first
+* Can be a price Leader: has said that cloud pricing should follow moore's law
+* offers diverse services: including both open and source and proprietary options.  
+
+other cloud platform technologies: Examples
+* spark/hadoop: AWS EMR, Azure HDinsight, Google cloud, dataproc
+* Machine Learning: Amazon ML, Azure ML, Google AI platfrom
+* Lots more : The three leading platforms all offer many services.
+* Alibaba cloud: offers Iaas, object storage, kubernetes, and lots more,  A dominant players in china
+* IBM cloud: offers Iaas, object storage, kubernetes, and lots more  , also offers bare-metal servers
+* More: many traditional hosters offer some cloud services , They don't have the scale of the market leaders
+
+
+Virtualization:
+* It is form of creating a virtual(rather than actual) version of something , including computer hardware platforms, storage devices and computer network resources.
+* It is replica of real
+* it is the process of creating a software-based of virtual representation of something, such as virtual applications,servers,storage,and networks.
+* example: virtual desktop, softcopy, , scancopy, zoom meeting, VM(Virtual machine)
+
+physical server/pc  -> virtual server software based
+                  hyperviser
+                 virtualization
+
+Problems:
+* low utilization of resources
+* a lot of space needed to host servers
+* not flexible
+* a lot of maintenance
+
+
+OCTOBER 28, THURSDAY
+
+Types of virtualization:
+(i)   hardware virtualization
+(ii)  operating system virtualization
+(iii) Server virtualization
+(iv)  Storage virtualization
+
+(i)   Hardware virtualization
+      * when virtual machine software or virtual machine maanger(VMM) is directly installed on hardware system is called as Hardware virtualization
+      * After virtualization of hardware system we can install different OS on it and run differnt application on those OS
+
+(ii)  Operating system virtualization:
+      * When virtual machine software or virtual machine manager(VMM) is installed on the host operating system instead of directly on the hardware system is called as Operating system virtualization.
+
+(iii) Server virtualization:
+      * when virtual machine software or virtual machine manager(VMM) is directly installed on server system is called as Server virtualization.
+
+(iv)  Storage virtualization:
+      * Storage virtualization is the process of grouping the physical storage from multiple network storage devices so that it loooks like a single storage device.
+
+
+NOVEMBER-1 2021
+
+
+IDE Tools:
+* Integrated Develpment Environment
+* It is a software application that provides comprehensive facilities to compute programer for a software development
+* it consists of (i) Source code editor (ii)Build automation (iii) Debugger
+* some features of IDE's can benefits from advance in AI(Artificial intelligence)
+* By using IDE we can develop machine learning related Code.
+* eg: Anaconda, jupyter notebook, colab
+
+Colab IDE Tools:
+* write and execute the code in python
+* upload the existing notebooks
+* share the notebooks by using notebooks with google links
+* It is also possible to import data /notebook from google drive 
+* save notebooks to google drive
+* it is open source (freee cloud service) with GPU and TPU
+* GPU- Graphical Processing Unit
+* TPU- Tensor processing unit
+
+Python:
+* python is a general prupose high level interpreter programming Language( interpreter means line by line check)
+* no need for compiling just running is enough 
+
+Types of programming Language:
+(i)   low level or machine level language: It is understand by machines e.g ASCII code, microcontroller, microprocessor
+(ii)  High level language: both machine and user can understand eg: python, c#, java,php
+
+Father of Python: Guido Van Rossum
+* he is a Dutch programmer 
+* invented python in the year of 1989
+
+Barrowed from other programming language:
+* functional programming from C Language
+* OOPS(Object oriented programming) from c++
+* Scripting language from shell scripting
+* Modular programming from module-3
+* most of the syntax from C as well as ABC language
+
+Uses of Python:
+* web application or web development 
+* desktop application
+* network application
+* machine learning
+* database application i.e data analysis , gaming applications
+
+Organization are use:
+* google - for better search option
+* NASA - Scientist calculation
+* netflix - for suggestion purpose
+* youtube
+* national security system - for encryption and decryption
+* dropbox
+* instagram
+* facebook
+
+flavors of python:
+* C python - used with c language apllications
+* j python or jpython - used with java application
+* iron python - used with c# and .net platform
+* py py - for speed inside python
+* ruby python - used with ruby platform application
+* anaconda python - to handle bigdata
+
+Python data types:
+1. Numeric data types: (i) integer (ii)float (iii) complex number
+   (i)   int: integer values in a variable e.g int=20, int=500
+   (ii)  float: float is represented by decimal values e.g float=5.2, float=8.10
+   (iii) complex no: It contains both real and imgainary part e.g complex=5+7j, complex=83+84j
+
+2. List data types:
+   (i)   list data types is collection of order data
+   (ii)  list is displayed with a square bracket[]
+   (iii) list is mutable i.e it can be changed 
+   (iv)  it allows the duplicates
+   (v)   syntax abc=list() or abc=[]
+
+3. Tuple data types:
+   (i)   it is used to store multiple data in a single variable
+   (ii)  tuple is displayed with open/close bracket()
+   (iii) tuples are immutable
+   (iv)  syntax tuple=()
+
+4. set data types:
+   (i)   set are used to store a multiple items in a single variable
+   (ii)  sets are unorder collection of data
+   (iii) sets are displayed with curly brackets
+   (iv)  sets are immutable
+   (v)   duplicates are not allowed 
+   (vi)  syntax a={1,2,3}
+                b={7,5,6,8}
+
+5. Dictionary data types:
+   (i)   dictionary are used to store a values in key value pairs
+   (ii)  it can be ordered are mutable i.e changeable
+   (iii) key and values are seperated by colon
+   (iv)  dictionaries displayed with curly brackets
+   (v)   syntax: a=dict() or a={}
+  
+6. Strings data types: 
+   (i)   strings in python are surrounded by either single or double quotation
+   (ii)  srings are mutable
+   (iii) syntax: str="Hello Good Mroning"
+                 str="hello all"
+
+   String slicing:
+   +ve index : starts from 0   1   2  3  4  5  6  7  8  9  10
+               eg:         H   e   l  l  o     w  o  r  l  d
+
+   -ve index :            -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1
+
+
+
+NOVEMBER 2 TUESDAY
+
+File handling in python:
+* python has s several functions for creating,reading, updating and deleting files
+* open()
+* "r">read a file
+* "w">writing
+* "a">append
+
+
+
+
+
+Devops:
+* the DevOps is a combination of two words, one is development and second is operation
+
+     -------------------------------------------------------
+         -------------------           ----------------
+           developer and                IT operation 
+            tester                 
+         -------------------           ----------------
+                        DevOps
+    ------------------------------------------------------------
+
+* with help of DevOps we reduce the disconnection between developer, QA(Quality assurance) and system administrator
+* it will promote collaboration between development and operation team to deploy code to production faster in an automated and repeated way
+
+
+
+Why DevOps:
+* the opreation and development team worked in complete isolation
+* without use of DevOps, the team members are spending a large amount of time designing , testing and deploying instead of building a project
+* manual code deployment leads to human errors in production
+
+DevOps tools:                                        What's in it for you?
+* git                                                * Waterfall model
+* Ansible                                            * Agile model
+* Docket                                             * what is devops
+* Puppet                                             * devops phases
+* Chef                                               * devops tools
+* Nagios                                             * devops advantages
+* Kubernetes
+* lenkins
+
+
+NOVEMBER 3 WEDNESDAY
+
+* date and time                       command: "%date% and %time%"
+* ip configuration                    command: ipconfig
+* display installed device drivers    command: driverquery
+* display system configuration        command: systeminfo
+* test network connection             command: ping google.com
+* test network latency                command: pathping
+* test route to a remote host         command: tracer facebook.com
+* list of running application         command: tasklist -v
+
+
+ 
+ 
